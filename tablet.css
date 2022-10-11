@@ -1,0 +1,336 @@
+main.container section.container__welcome-section   {
+    width: 100%;
+    height: 362px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 24px;
+    padding: 48px 15px;
+}
+
+main.container section.container__welcome-section div.container-iframe {
+    width: 50%;
+    height: 75%;
+    align-self: flex-start;
+}
+
+main.container section.container__welcome-section div.container-iframe iframe {
+    /* width: 330px; */
+    /* height: 186px; */
+    padding: 0 15px 0 0px;
+}
+
+main.container section.container__welcome-section div.container-welcometo {
+    width: 50%;
+}
+
+main.container section.container__welcome-section div.container-welcometo p {
+    width: 100%;
+    /* height: 144px; */
+}
+
+/* ... */ /* ... *//* ... *//* ... */
+
+main .container__3 {
+    height: 689px;
+    display: flex;
+}
+
+
+main.container .container__introductory-image {
+    width: 33%;
+    align-self: center;
+}
+
+main.container .container__introductory-image picture img {
+    width: 100%;
+}
+
+main.container .container__model {
+    width: 67%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 0;
+}
+
+main.container .container__model h4 {
+    height: 41px;
+    margin-bottom: 16px;
+    padding-left: 15px;
+}
+
+main.container .container__model div {
+    width: 50%;
+    height: 61px;
+    padding: 0 15px;
+    margin-bottom: 24px;
+}
+
+main.container .container__model article {
+    width: 100%;
+    padding-left: 15px;
+}
+
+/* ... */ /* ... */ /* ... */ /* ... */
+
+main .container__levels {
+    /* height: 386px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+main .container__levels .container__levels--item {
+    width: 50%;
+    height: auto;
+}
+
+/* counter */ /* counter */ /* counter */ /* counter */
+
+main section.container__counter button {
+    padding: 0 24px;
+}
+
+main section.container__counter .container__counter--numbers1 .yellow {
+    width: 240px;
+    padding-left: 15px;
+}
+
+main section.container__counter .container__counter--numbers1 .yellow picture img {
+    width: 209px;
+    height: 209px;
+}
+
+main section.container__counter .container__counter--numbers1 .red {
+    width: 240px;
+    padding-right: 15px;
+}
+
+main section.container__counter .container__counter--numbers1 .red picture img {
+    width: 209px;
+    height: 209px;
+}
+
+main section.container__counter .container__counter--numbers1 .soft {
+    width: 240px;
+    padding-left: 15px;
+}
+
+main section.container__counter .container__counter--numbers1 .soft picture img {
+    width: 209px;
+    height: 209px;
+}
+
+main section.container__counter .container__counter--numbers1 .blue {
+    width: 240px;
+    padding: 0 15px;
+
+}
+
+main section.container__counter .container__counter--numbers1 .blue picture img {
+    width: 209px;
+    height: 209px;
+}
+
+main section.container__counter .container__counter--numbers1 .green {
+    width: 240px;
+    padding-left: 15px;
+
+}
+
+main section.container__counter .container__counter--numbers1 .green picture img {
+    width: 209px;
+    height: 209px;
+}
+
+
+/* counter2 */ /* counter2 */ /* counter2 */ /* counter2 */
+
+main .container__counter .container__counter--numbers2 {
+    display: flex;
+    justify-content: center;
+}
+
+main section.container__counter .container__counter--numbers2-item {
+    margin: 0 4px;
+}
+
+main section.container__counter .container__counter--numbers2 .yellow {
+    padding: 0 15px;
+}
+main section.container__counter .container__counter--numbers2 .red {
+    padding: 0 15px;
+}
+
+main section.container__counter .container__counter--numbers2 .soft {
+    padding: 0 15px;
+}
+
+main section.container__counter .container__counter--numbers2 .blue {
+    padding: 0 15px;
+}
+
+/* pride */ /* pride */ /* pride */ /* pride */ /* pride */ 
+
+.container .container__pride {
+    /* display: flex; */
+    flex-direction: column;
+    height: 1341px;
+    padding: 48px 0;
+}
+
+main section.container__pride button {
+    margin-left: 15px;
+}
+
+.container .container__pride .container__pride--seventh {
+    /* width: 100%; */
+    /* height: 409px; */
+    padding: 0 15px;
+}
+
+.container .container__pride .container__pride--seventh iframe {
+    width: 100%;
+    height: 360px;
+}
+
+.pride__aside {
+    width: 100%;
+    height: 781px;
+    padding: 0 5px;
+}
+
+.container .container__pride .container__pride--item {
+    width: 100%;
+    height: 170px;
+    display: flex;
+}
+
+.container .container__pride .container__pride--item figure {
+    padding-right: 15px;
+}
+
+.container .container__pride .container__pride--item p {
+    padding-left: 15px;
+}
+
+/* news */ /* news */ /* news */ /* news */ /* news */ /* news */
+
+.container .container__news {
+    height: 705px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .container__news button {
+    margin-left: 15px;
+}
+
+.container .container__news .container__news--item1 {
+    padding: 0 15px;
+    width: 50%;
+}
+
+.container .container__news .container__news--item1 figure img {
+    width: 330px;
+    height: 173px;
+}
+
+main .container__news .container__news--item1 .container__news--seemore {
+    margin-left: -1px;
+}
+
+.container .container__news .container__news--item2 {
+    width: 50%;
+    padding: 0 15px;
+    position: relative;
+    top: 50px;
+}
+
+.container .container__news .container__news--item2 figure img {
+    width: 330px;
+    height: 173px;
+}
+
+main .container__news .container__news--item2 .container__news--seemore {
+    margin-left: -1px;
+}
+
+/* Updates */ /* Updates */ /* Updates */ /* Updates */
+
+.container .container__updates {
+    display: flex;
+    flex-direction: row;
+    height: 333px;
+}
+
+.container .container__updates .container__updates--event {
+    display: flex;
+}
+
+.container .container__updates .container__updates--event figure {
+    padding: 0 15px;
+    align-self: center;
+}
+
+.container .container__updates .container__updates--event h2 {
+    padding: 0 15px;
+}
+
+.container .container__updates .container__updates--event figure img {
+    width: 90px;
+    height: 90px;
+}
+
+.container .container__updates .container__updates--form .recaptcha {
+    margin-bottom: 2px;
+}
+
+.container .container__updates .container__updates--form .recaptcha img {
+    height: 78px;
+}
+
+/* footer */ /* footer */ /* footer */ /* footer */
+/* footer */ /* footer */ /* footer */ /* footer */
+
+footer .footer__contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer .footer__contact .contact1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer__contact figure {
+    width: 50%;
+    padding: 0 15px;
+}
+
+footer .footer__contact .footer__contact--map img{
+    width: 330px;
+    height: 186px;
+}
+
+footer .footer__contact .footer__contact--list {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .footer__contact .footer__contact--list2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -37px;
+}
+
+footer .footer__contact .footer__contact--terms {
+    width: 100%;
+}
